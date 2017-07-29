@@ -5,7 +5,7 @@ from flask.cli import FlaskGroup
 
 
 def create_app(_=None):
-    from elastic_flask.main import create_app
+    from elastic_flask.web import create_app
     return create_app()
 
 
